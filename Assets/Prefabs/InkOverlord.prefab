@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1536377687359482}
+  m_IsPrefabParent: 1
+--- !u!1 &1536377687359482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4971291797453778}
+  - component: {fileID: 114258309647781602}
+  - component: {fileID: 114691570134008964}
+  - component: {fileID: 114475983698306770}
+  m_Layer: 0
+  m_Name: InkOverlord
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4971291797453778
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536377687359482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 329.5, y: 185.5, z: -6.7066984}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114258309647781602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536377687359482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f70e2de28a9e4745b027623fb98d5a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyScript: {fileID: 4900000, guid: 2110d5f0947a53940941acaa489521ea, type: 3}
+  isInLogMode: 0
+  alphaHistory: {fileID: 0}
+  history:
+    token:
+      playerName: 
+    storyLogs: []
+    interactionLogs: []
+  token:
+    playerName: 
+--- !u!114 &114475983698306770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536377687359482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f320a48d165d30f41a6bcf53ae9f3cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  datas: {fileID: 11400000, guid: 4f13bf0e603303b4f95c6546fc29ede4, type: 2}
+  prefabs:
+  - prefabID: ALBUM
+    baseDisplay: {fileID: 114282263716167036, guid: b4746c4cfe3b27248915399041ec3ff7,
+      type: 2}
+  - prefabID: IMAGE
+    baseDisplay: {fileID: 114728468487982604, guid: 93fb45eae632bb6419236bf3a867cfd6,
+      type: 2}
+  - prefabID: VIDEO
+    baseDisplay: {fileID: 114812880810416920, guid: f22a7ecb4b0f1f545a8db8728e5ddbf9,
+      type: 2}
+  - prefabID: TEXT
+    baseDisplay: {fileID: 114780965135319304, guid: 48c321de93a067f4496f4934c0380ee5,
+      type: 2}
+  - prefabID: WANDERER
+    baseDisplay: {fileID: 114754590877284370, guid: e238c0db7f333c947904d85484c1d220,
+      type: 2}
+  - prefabID: INTERVIEWS
+    baseDisplay: {fileID: 114547251544924742, guid: 46dfd87a9b7c5d54595997868de11aff,
+      type: 2}
+--- !u!114 &114691570134008964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536377687359482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 923b504891e75624aba143490a576d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: 7356803e659aab73ca0f28b7207ea21f
+  _token: 095f8f9fc8fd002d5804ed5de9288ed47b59db3ecc2f9e68b16b0f13dc5ddf2c
+  _defaultBoard: BROWNIE COVE EXPRESS
+  _defaultList: Playthroughs
